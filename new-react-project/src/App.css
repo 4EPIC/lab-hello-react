@@ -1,0 +1,61 @@
+h1 {
+  font-size: 70px;
+}
+
+.App-icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.App-logo {
+  pointer-events: none;
+}
+
+.App-menu {
+  display: block;
+}
+
+.App-text {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.App-text p {
+  font-size: 21px;
+}
+
+.awesome {
+  padding: 20px 30px;
+  background-color: white;
+  color: black;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 50vh;
+  padding: 50px 150px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.icons-boxes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icons-box {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+}
